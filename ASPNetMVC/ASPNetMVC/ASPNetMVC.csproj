@@ -137,6 +137,10 @@
     <Compile Include="Migrations\202102110752269_tes-migrasi.designer.cs">
       <DependentUpon>202102110752269_tes-migrasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102120526033_division employee.cs" />
+    <Compile Include="Migrations\202102120526033_division employee.designer.cs">
+      <DependentUpon>202102120526033_division employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Division.cs" />
@@ -248,6 +252,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202102110752269_tes-migrasi.resx">
       <DependentUpon>202102110752269_tes-migrasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102120526033_division employee.resx">
+      <DependentUpon>202102120526033_division employee.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

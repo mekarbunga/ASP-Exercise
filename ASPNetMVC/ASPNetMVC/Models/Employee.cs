@@ -15,7 +15,11 @@ namespace ASPNetMVC.Models
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public string Address { get; set; }
+        [Required]
         public string Email { get; set; }
         public string Phone { get; set; }
+        public Division Division { get; set; }
+        //[Required]
+        public virtual Account Account { get; set; }
     }
 }

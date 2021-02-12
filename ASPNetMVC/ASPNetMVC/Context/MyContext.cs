@@ -15,5 +15,7 @@ namespace ASPNetMVC.Context
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Division> Divisions { get; set; }
+        public DbSet<Account> Accounts { get; set; } 
     }
 }
